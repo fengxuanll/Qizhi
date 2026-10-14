@@ -55,3 +55,5 @@ dotnet new qizhu-framework --name Acme --output ../Acme
 当前是可运行的基础框架。组织/字典/参数/文件/导入导出/审批/通知/任务/代码生成、完整租户生命周期、订阅配额、缓存和模块开关仍待开发；RPO/RTO 和性能数字尚未经过完整生产验收。
 
 文档：[技术栈](docs/technology-stack.md)、[平台规范](docs/platform-standards.md)、[架构](docs/architecture.md)、[开发约定](docs/development.md)、[实现与迁移记录](docs/implementation-status.md)。
+
+后续工作与当前流程缺口见[未完成工作反查](docs/remaining-work.md)。

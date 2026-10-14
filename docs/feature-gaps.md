@@ -1,5 +1,7 @@
 # Qizhu 功能缺口分析
 
+> 历史报告：以下结论针对 2026-10-14 的早期骨架，不能作为当前实施状态。2026-10-15 的代码反查见[未完成工作清单](remaining-work.md)。正文保留供追溯。
+
 分析日期：2026-10-14
 分析对象：`README.md`、`docs/architecture.md`、`docs/development.md`、`docs/technology-stack.md` 与 `src/`、`tests/` 实际代码。
 
