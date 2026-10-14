@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../Qizhu.Application/Qizhu.Application.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="SqlSugarCore" />
+    <PackageReference Include="dbup-sqlserver" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" />
+    <EmbeddedResource Include="Database/Migrations/*.sql" />
+  </ItemGroup>
+</Project>

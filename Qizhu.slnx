@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Qizhu.Api/Qizhu.Api.csproj" />
+    <Project Path="src/Qizhu.Application/Qizhu.Application.csproj" />
+    <Project Path="src/Qizhu.Domain/Qizhu.Domain.csproj" />
+    <Project Path="src/Qizhu.Infrastructure/Qizhu.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Qizhu.Tests/Qizhu.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Qizhu",
+  "classifications": ["Web", "API", "Modular"],
+  "identity": "Qizhu.Framework.Solution",
+  "name": "Qizhu 企业开发框架",
+  "shortName": "qizhu-framework",
+  "sourceName": "Qizhu",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        ".git/**",
+        ".vs/**",
+        ".idea/**",
+        "**/bin/**",
+        "**/obj/**",
+        "work/**",
+        "artifacts/**",
+        "TestResults/**",
+        ".template.config/**",
+        ".env",
+        ".env.*",
+        ".workbuddy/**",
+        "web/node_modules/**",
+        "web/dist/**",
+        "web/coverage/**",
+        "web/playwright-report/**",
+        "web/test-results/**",
+        "**/appsettings.Local.json"
+      ]
+    }
+  ]
+}

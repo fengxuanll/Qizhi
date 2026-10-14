@@ -1,0 +1,14 @@
+**/bin
+**/obj
+.git
+.vs
+.idea
+work
+artifacts
+TestResults
+tests
+docs
+.env*
+**/appsettings.Local.json
+web/node_modules
+web/dist

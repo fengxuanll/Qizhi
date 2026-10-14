@@ -1,0 +1,21 @@
+@baseUrl = http://localhost:5080
+@tenantId = 237000000000004096
+
+### 存活检查
+GET {{baseUrl}}/health/live
+
+### 接口文档
+GET {{baseUrl}}/openapi/v1.json
+
+### Memory 匿名演示新建项目（SqlServer 模式请通过 HTTPS 管理端完成登录/CSRF）
+POST {{baseUrl}}/api/v1/projects
+Content-Type: application/json
+X-Tenant-Id: {{tenantId}}
+
+{
+  "name": "我的第一个业务项目"
+}
+
+### 分页查询
+GET {{baseUrl}}/api/v1/projects?pageNumber=1&pageSize=20
+X-Tenant-Id: {{tenantId}}
